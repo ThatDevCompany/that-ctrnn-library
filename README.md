@@ -1,2 +1,4 @@
-# that-ctrnn-thing
-A Continuous Time Recurrent Neural Network
+# That CTRNN Thing
+A Continuous Time Recurrent Neural Network for Typescript
+
+
