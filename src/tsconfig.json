@@ -1,6 +1,15 @@
 {
-  "compileOnSave": true,
-  "exclude": [
-    "../node_modules/*"
-  ]
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "typeRoots": [
+            "../node_modules/@types"
+        ],
+        "types": [
+            "jasmine"
+        ]
+    },
+    "exclude": [
+        "../node_modules/*"
+    ]
 }

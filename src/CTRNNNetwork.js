@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var CTRNNNeuron_1 = require("./CTRNNNeuron");
 var CTRNNNetwork = /** @class */ (function () {
     // Constructor

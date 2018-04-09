@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7450a8f-170a-48fd-83e1-7dc0c4d9a0eb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.istanbul.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CTRNNConnection.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNConnectee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTRNNConnectee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNConnection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNNetwork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTRNNNetwork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNNeuron.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CTRNNNeuron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="wwwxi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +34,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="CTRNNConnection.spec.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CTRNNConnection.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CTRNNConnection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coverage/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -36,10 +82,33 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="420">
+              <caret line="28" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".istanbul.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.istanbul.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -158,8 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/polymer/tdc/tdc-animated.html" />
-        <option value="$PROJECT_DIR$/client/polymer/tdc/tdc-www.html" />
         <option value="$PROJECT_DIR$/client/polymer/tdc-www.html" />
         <option value="$PROJECT_DIR$/client/polymer/tdc-animated.html" />
         <option value="$PROJECT_DIR$/client/polymer/tdc-bounceblock.html" />
@@ -197,7 +264,6 @@
         <option value="$PROJECT_DIR$/../polymer-style-animator/style-animator.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/example.ts" />
-        <option value="$PROJECT_DIR$/src/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/ctrnn.ts" />
         <option value="$PROJECT_DIR$/src/CTRNN.ts" />
         <option value="$PROJECT_DIR$/src/CTRNNConnectee.ts" />
@@ -208,7 +274,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/.istanbul.yml" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/CTRNNConnection.spec.ts" />
+        <option value="$PROJECT_DIR$/src/tsconfig.json" />
       </list>
     </option>
   </component>
@@ -291,7 +360,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -405,29 +474,20 @@
       <node-interpreter value="project" />
       <envs />
     </configuration>
-    <configuration name="build:client" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:client" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-    </configuration>
-    <configuration name="build:server" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:server" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-    </configuration>
     <configuration name="build:watch" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build:watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="cover" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="cover" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -450,6 +510,15 @@
       <node-interpreter value="project" />
       <envs />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
       <node-interpreter />
       <node-options />
@@ -466,18 +535,18 @@
       <item itemvalue="npm.Build" />
       <item itemvalue="npm.Deploy" />
       <item itemvalue="npm.build:watch" />
-      <item itemvalue="npm.build:server" />
-      <item itemvalue="npm.build:client" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.lint" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="npm.cover" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.cover" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build:watch" />
-        <item itemvalue="npm.build:client" />
-        <item itemvalue="npm.build:server" />
       </list>
     </recent_temporary>
   </component>
@@ -521,14 +590,7 @@
       <workItem from="1522932141093" duration="93000" />
       <workItem from="1522932281335" duration="951000" />
       <workItem from="1523094569836" duration="4416000" />
-      <workItem from="1523275937608" duration="3421000" />
-    </task>
-    <task id="LOCAL-00003" summary="Added some styling">
-      <created>1476680849139</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1476680849139</updated>
+      <workItem from="1523275937608" duration="5284000" />
     </task>
     <task id="LOCAL-00004" summary="Some of the basic pages">
       <created>1476686491572</created>
@@ -866,11 +928,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481167496319</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Removing unused npm packages">
+      <created>1523279937202</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1523279937203</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348664000" />
+    <option name="totallyTimeSpent" value="350527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,16 +954,17 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.48907682" weight="0.32848486" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49964765" weight="0.32848486" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.4918957" side_tool="true" weight="0.34666666" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.51021844" visible="true" weight="0.34666666" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48696265" side_tool="true" weight="0.34666666" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50739956" visible="true" weight="0.34666666" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48978153" side_tool="true" weight="0.34666666" />
       <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4926004" side_tool="true" visible="true" weight="0.34666666" />
+      <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.48696265" weight="0.32848486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46863988" weight="0.44" />
       <window_info id="Structure" order="3" show_stripe_button="false" side_tool="true" weight="0.24929178" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48978153" side_tool="true" visible="true" weight="0.34666666" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39972898" />
       <window_info auto_hide="true" id="Favorites" internal_type="SLIDING" order="2" show_stripe_button="false" sideWeight="0.19911504" side_tool="true" type="SLIDING" weight="0.2967422" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -902,7 +972,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Grunt " order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46954674" weight="0.44" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3306233" />
@@ -938,11 +1007,12 @@
         <option value="$PROJECT_DIR$/../ngx-material-dial/config/dist.config.js" />
         <option value="$PROJECT_DIR$/../ngx-material-dial/config/test.config.js" />
         <option value="$PROJECT_DIR$/../ngx-material-dial/config/build.config.js" />
-        <option value="$PROJECT_DIR$/src/example.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/CTRNNConnectee.js" />
         <option value="$PROJECT_DIR$/src/CTRNNConnection.js" />
         <option value="$PROJECT_DIR$/src/CTRNNNeuron.js" />
+        <option value="$PROJECT_DIR$/../that-ga-thing/src/GA.spec.js" />
+        <option value="$PROJECT_DIR$/../that-ga-thing/src/GA.js" />
       </list>
     </option>
   </component>
@@ -986,7 +1056,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Tidied up form UX" />
     <MESSAGE value="Fixed Course Application Form" />
     <MESSAGE value="Added Swipeable Pages" />
     <MESSAGE value="Prepared for deployment" />
@@ -1011,7 +1080,8 @@
     <MESSAGE value="Event Expired Date and Private Events" />
     <MESSAGE value="Fixed Event.Type bug" />
     <MESSAGE value="Bootcamps refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootcamps refactor" />
+    <MESSAGE value="Removing unused npm packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing unused npm packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,10 +1106,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower_components/polymer/lib/legacy/polymer-fn.html" />
-    <entry file="file://$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents-loader.js" />
-    <entry file="file://$PROJECT_DIR$/build/index.html" />
-    <entry file="file://$PROJECT_DIR$/bower_components/polymer/README.md" />
     <entry file="file://$PROJECT_DIR$/build/inline.bundle.js" />
     <entry file="file://$PROJECT_DIR$/src/client/polymer/tdc-animated.html" />
     <entry file="file://$PROJECT_DIR$/build/bower.bundle.js" />
@@ -1085,16 +1151,6 @@
     <entry file="file://$PROJECT_DIR$/src/common/box2d/Common/b2Math.ts" />
     <entry file="file://$PROJECT_DIR$/src/client/angular/tsconfig.app.json" />
     <entry file="file://$PROJECT_DIR$/src/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/src/example.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.npmrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1109,13 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1139,13 +1188,6 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1163,10 +1205,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/example.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.istanbul.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>

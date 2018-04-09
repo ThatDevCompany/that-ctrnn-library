@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var CTRNNConnection = /** @class */ (function () {
     // Constructor
     function CTRNNConnection(from, to) {
