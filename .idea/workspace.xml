@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7450a8f-170a-48fd-83e1-7dc0c4d9a0eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/tslint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tdc-www.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/that-ctrnn-thing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/that-ctrnn-thing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrnn/actuator/Actuator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrnn/actuator/LogActuator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrnn/actuator/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrnn/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrnn/sensor/RandomSensor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrnn/sensor/Sensor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrnn/sensor/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/signal/Receiver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/signal/Signal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/signal/Transmitter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/signal/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNConnectee.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNConnection.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrnn/Neuron.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNConnection.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNNetwork.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrnn/Network.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CTRNNNeuron.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrnn/Neuron.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <ignored path="wwwxi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,85 +42,33 @@
     <favorites_list name="wwwxi" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CTRNNConnection.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.spec.ts">
+    <leaf>
+      <file leaf-file-name="LogActuator.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ctrnn/actuator/LogActuator.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CTRNNConnection.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CTRNNConnection.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" selection-start-line="9" selection-end-line="9" />
               </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="Signal.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/signal/Signal.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".istanbul.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.istanbul.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -129,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>boot</find>
       <find>Poly</find>
       <find>utils</find>
       <find>entryPoints</find>
@@ -159,6 +116,7 @@
       <find>rad2</find>
       <find>angular</find>
       <find>use-in</find>
+      <find>Transmitter</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -231,30 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/polymer/tdc-www.html" />
-        <option value="$PROJECT_DIR$/client/polymer/tdc-animated.html" />
-        <option value="$PROJECT_DIR$/client/polymer/tdc-bounceblock.html" />
-        <option value="$PROJECT_DIR$/client/index.html" />
-        <option value="$PROJECT_DIR$/client/css/tdc-basic.css" />
-        <option value="$PROJECT_DIR$/src/client/angular/tsconfig.app.json" />
-        <option value="$PROJECT_DIR$/src/client/angular/tsconfig.test.json" />
-        <option value="$PROJECT_DIR$/src/server/tsconfig.json" />
-        <option value="$PROJECT_DIR$/.angular-cli.json" />
-        <option value="$PROJECT_DIR$/deploy.js" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/client/css/tdc-theme.scss" />
-        <option value="$PROJECT_DIR$/.npmrc" />
-        <option value="$PROJECT_DIR$/src/server/config.ts" />
-        <option value="$PROJECT_DIR$/build/index.html" />
-        <option value="$PROJECT_DIR$/src/client/polymer/tdc-scroller.html" />
-        <option value="$PROJECT_DIR$/src/client/polymer/tdc-section.html" />
-        <option value="$PROJECT_DIR$/src/client/polymer/tdc-spark.html" />
-        <option value="$PROJECT_DIR$/src/client/polymer/tdc-sparkle.html" />
-        <option value="$PROJECT_DIR$/src/client/polymer/tdc-animated.html" />
-        <option value="$PROJECT_DIR$/src/client/css/tdc-www.scss" />
-        <option value="$PROJECT_DIR$/src/client/index.html" />
-        <option value="$PROJECT_DIR$/src/client/css/tdc-basic.css" />
-        <option value="$PROJECT_DIR$/src/client/images/sprite_clients.css" />
         <option value="$PROJECT_DIR$/src/client/polymer/tdc-styles.html" />
         <option value="$PROJECT_DIR$/src/common/angular/components/dial/dial.component.html" />
         <option value="$PROJECT_DIR$/src/common/tsconfig.json" />
@@ -271,16 +205,40 @@
         <option value="$PROJECT_DIR$/src/CTRNN.ts" />
         <option value="$PROJECT_DIR$/src/CTRNNConnectee.ts" />
         <option value="$PROJECT_DIR$/src/CTRNNConnection.ts" />
-        <option value="$PROJECT_DIR$/src/index.ts" />
         <option value="$PROJECT_DIR$/src/CTRNNNeuron.ts" />
         <option value="$PROJECT_DIR$/src/CTRNNNetwork.ts" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/.istanbul.yml" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/CTRNNConnection.spec.ts" />
         <option value="$PROJECT_DIR$/src/tsconfig.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/CTRNNActuator.ts" />
+        <option value="$PROJECT_DIR$/src/CTRNNSensor.ts" />
+        <option value="$PROJECT_DIR$/src/Outputter.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Outputter.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Inputter.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Connection.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Receiver.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Network.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Transmitter.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Transmission.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Neuron.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Actuator.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/Sensor.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/SensorTimeout.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/SensorRandom.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/actuator/LogActuator.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/actuator/index.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/sensor/index.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/sensor/RandomSensor.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/index.ts" />
+        <option value="$PROJECT_DIR$/src/signals/index.ts" />
+        <option value="$PROJECT_DIR$/src/index.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/ctrnn/sensor/Sensor.ts" />
+        <option value="$PROJECT_DIR$/src/signal/index.ts" />
+        <option value="$PROJECT_DIR$/src/ctrnn/actuator/Actuator.ts" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -304,7 +262,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -330,6 +288,32 @@
               <item name="that-ctrnn-thing" type="b2602c69:ProjectViewProjectNode" />
               <item name="that-ctrnn-thing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="that-ctrnn-thing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="that-ctrnn-thing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ctrnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="that-ctrnn-thing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="that-ctrnn-thing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ctrnn" type="462c0819:PsiDirectoryNode" />
+              <item name="actuator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="that-ctrnn-thing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="that-ctrnn-thing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ctrnn" type="462c0819:PsiDirectoryNode" />
+              <item name="sensor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="that-ctrnn-thing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="that-ctrnn-thing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="signal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,19 +352,19 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/client/images" />
-      <recent name="$PROJECT_DIR$/src/client/images/raw/clients" />
-      <recent name="$PROJECT_DIR$/src/client/images/raw/stack" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/signals" />
+      <recent name="$PROJECT_DIR$/src/ctrnn/sensor" />
+      <recent name="$PROJECT_DIR$/src/ctrnn/actuator" />
+      <recent name="$PROJECT_DIR$/src/ctrnn" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/common/polymer" />
-      <recent name="$PROJECT_DIR$/src/client/angular" />
-      <recent name="$PROJECT_DIR$/dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/signals" />
+      <recent name="$PROJECT_DIR$/src/ctrnn/actuator" />
+      <recent name="$PROJECT_DIR$/src/ctrnn" />
+      <recent name="$PROJECT_DIR$/src/ctrnn/receiver" />
+      <recent name="$PROJECT_DIR$/src/ctrnn/sensor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -546,9 +530,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.lint" />
         <item itemvalue="npm.cover" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.lint" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build:watch" />
       </list>
@@ -597,6 +581,8 @@
       <workItem from="1523275937608" duration="5407000" />
       <workItem from="1523282292810" duration="22000" />
       <workItem from="1523331925293" duration="402000" />
+      <workItem from="1523358204393" duration="85000" />
+      <workItem from="1523358317870" duration="7574000" />
     </task>
     <task id="LOCAL-00004" summary="Some of the basic pages">
       <created>1476686491572</created>
@@ -945,7 +931,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351074000" />
+    <option name="totallyTimeSpent" value="358790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -957,19 +943,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.48696265" weight="0.32848486" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49964765" weight="0.32848486" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.4918957" side_tool="true" weight="0.34666666" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50669485" visible="true" weight="0.34571427" />
-      <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.49330515" side_tool="true" visible="true" weight="0.34545454" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50669485" visible="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48978153" side_tool="true" weight="0.34666666" />
+      <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
       <window_info id="Structure" order="3" show_stripe_button="false" side_tool="true" weight="0.24929178" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49330515" side_tool="true" visible="true" weight="0.34571427" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49330515" side_tool="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39972898" />
       <window_info auto_hide="true" id="Favorites" internal_type="SLIDING" order="2" show_stripe_button="false" sideWeight="0.19911504" side_tool="true" type="SLIDING" weight="0.2967422" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -983,25 +968,25 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46863988" weight="0.44" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292683" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="4" sideWeight="0.59070796" weight="0.17829457" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.5084986" visible="true" weight="0.38857144" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80088496" visible="true" weight="0.1564482" />
+      <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
       <window_info id="Structure" order="3" show_stripe_button="false" side_tool="true" weight="0.24929178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.49150142" weight="0.32857144" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49964765" weight="0.32848486" />
+      <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.48696265" weight="0.32848486" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50669485" weight="0.34571427" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46863988" weight="0.44" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39972898" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3306233" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3292683" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5056657" side_tool="true" weight="0.3292683" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46954674" weight="0.44" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49330515" side_tool="true" weight="0.34545454" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.4918957" side_tool="true" weight="0.34666666" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48978153" side_tool="true" weight="0.34666666" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Grunt " order="1" side_tool="true" />
       <window_info auto_hide="true" id="Favorites" internal_type="SLIDING" order="2" show_stripe_button="false" sideWeight="0.19911504" side_tool="true" type="SLIDING" weight="0.2967422" />
     </layout-to-restore>
@@ -1011,11 +996,8 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/CTRNNConnectee.js" />
-        <option value="$PROJECT_DIR$/src/CTRNNConnection.js" />
-        <option value="$PROJECT_DIR$/src/CTRNNNeuron.js" />
-        <option value="$PROJECT_DIR$/../that-ga-thing/src/GA.spec.js" />
-        <option value="$PROJECT_DIR$/../that-ga-thing/src/GA.js" />
+        <option value="$PROJECT_DIR$/src/ctrnn/actuator/index.js" />
+        <option value="$PROJECT_DIR$/src/ctrnn/sensor/index.js" />
       </list>
     </option>
   </component>
@@ -1105,36 +1087,10 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="76" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.istanbul.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/inline.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/polymer/tdc-animated.html" />
-    <entry file="file://$PROJECT_DIR$/build/bower.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/bower_components/polymer/lib/mixins/element-mixin.html" />
-    <entry file="file://$PROJECT_DIR$/build/tdc-www.bundle.js" />
     <entry file="file://$PROJECT_DIR$/bower_components/polymer/polymer-element.html" />
     <entry file="file://$PROJECT_DIR$/bower_components/polymer/polymer.html" />
     <entry file="file://$PROJECT_DIR$/bower_components/polymer/LICENSE.txt" />
@@ -1175,34 +1131,6 @@
     <entry file="file://$PROJECT_DIR$/src/common/box2d/Common/b2Math.ts" />
     <entry file="file://$PROJECT_DIR$/src/client/angular/tsconfig.app.json" />
     <entry file="file://$PROJECT_DIR$/src/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CTRNNConnectee.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CTRNNNetwork.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CTRNNNeuron.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1217,22 +1145,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/signal/Signal.js" />
     <entry file="file://$PROJECT_DIR$/coverage/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/CTRNNConnection.spec.ts">
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/Neuron.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
@@ -1253,30 +1168,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/signal/Transmitter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/Network.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/Neuron.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/signal/Receiver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/actuator/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/sensor/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/sensor/RandomSensor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/sensor/Sensor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/signal/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/actuator/Actuator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctrnn/actuator/LogActuator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/signal/Signal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

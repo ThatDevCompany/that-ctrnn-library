@@ -4,10 +4,15 @@ A Continuous Time Recurrent Neural Network for Typescript
 #### Package Contents
 |Module|Description|
 |---|---|
-|CTRNNConnectee| An interface for anything that can be Connected via a connection. This will generally be a Neuron, a Sensor or an Actuator|
-|CTRNNConnection| A weighted connection between two Connectees|
-|CTRNNNeuron| A single Node (a Neuron) in a CTRNN network|
-|CTRNNNetwork| A CTRNN network|
+|signal/Signal|...|
+|signal/Receiver|...|
+|signal/Transmitter|...|
+|ctrnn/Neuron|...|
+|ctrnn/Network|...|
+|ctrnn/actuator/Actuator|...|
+|ctrnn/actuator/LogActuator|...|
+|ctrnn/sensor/Sensor|...|
+|ctrnn/sensor/RandomSensor|...|
 
 #### Examples
 Coming Soon

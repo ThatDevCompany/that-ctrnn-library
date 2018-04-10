@@ -1,11 +1,11 @@
-import {CTRNNNeuron} from './CTRNNNeuron';
+import {Neuron} from './Neuron';
 
-export class CTRNNNetwork {
+export class Network {
 
     // See http://users.sussex.ac.uk/~inmanh/easy/alife10/ga_exercise2.html
 
     // The neurons in the Network
-    neurons: Array<CTRNNNeuron>;
+    neurons: Array<Neuron>;
 
     // The number of neurons
 	size: number;
@@ -20,7 +20,7 @@ export class CTRNNNetwork {
 	randomise() {
 		this.neurons = [];
 		for (let i = 0; i < this.size; i++ ) {
-			this.neurons.push(new CTRNNNeuron());
+			this.neurons.push(new Neuron());
 		}
 		for (let i = 0; i < this.size; i++ ) {
 			for (let j = 0; j < this.size; j++ ) {
