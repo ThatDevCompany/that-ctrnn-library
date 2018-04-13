@@ -1,4 +1,4 @@
-# That CTRNN Thing
+# That CTRNN Library
 A Continuous Time Recurrent Neural Network for Typescript
 
 #### Package Contents
