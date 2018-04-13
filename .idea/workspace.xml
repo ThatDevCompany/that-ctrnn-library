@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/README.md" line="1" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7450a8f-170a-48fd-83e1-7dc0c4d9a0eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c7450a8f-170a-48fd-83e1-7dc0c4d9a0eb" name="Default" comment="" />
     <ignored path="wwwxi.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +21,17 @@
     <favorites_list name="wwwxi" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -503,7 +511,7 @@
       <workItem from="1523358204393" duration="85000" />
       <workItem from="1523358317870" duration="7695000" />
       <workItem from="1523385080928" duration="1578000" />
-      <workItem from="1523611702045" duration="550000" />
+      <workItem from="1523611702045" duration="1615000" />
     </task>
     <task id="LOCAL-00004" summary="Some of the basic pages">
       <created>1476686491572</created>
@@ -852,7 +860,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361039000" />
+    <option name="totallyTimeSpent" value="362104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,7 +876,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.48696265" weight="0.32848486" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49964765" weight="0.32848486" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.49330515" side_tool="true" weight="0.34545454" />
@@ -876,7 +884,7 @@
       <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50669485" weight="0.34545454" />
       <window_info id="Structure" order="3" show_stripe_button="false" side_tool="true" weight="0.24929178" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49330515" side_tool="true" visible="true" weight="0.34428573" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49330515" side_tool="true" visible="true" weight="0.34428573" />
       <window_info auto_hide="true" id="Favorites" internal_type="SLIDING" order="2" show_stripe_button="false" sideWeight="0.19911504" side_tool="true" type="SLIDING" weight="0.2967422" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39972898" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1146,13 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ctrnn/sensor/RandomSensor.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1207,6 +1208,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
