@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7450a8f-170a-48fd-83e1-7dc0c4d9a0eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/lint.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/publish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/publish.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/tslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/tslint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.istanbul.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.istanbul.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctrnn/Network.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrnn/Network.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctrnn/Neuron.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrnn/Neuron.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctrnn/sensor/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrnn/sensor/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/signal/Receiver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/signal/Receiver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="wwwxi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/LICENSE">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -188,7 +193,6 @@
         <option value="$PROJECT_DIR$/.istanbul.yml" />
         <option value="$PROJECT_DIR$/src/CTRNNConnection.spec.ts" />
         <option value="$PROJECT_DIR$/src/tsconfig.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/CTRNNActuator.ts" />
         <option value="$PROJECT_DIR$/src/CTRNNSensor.ts" />
         <option value="$PROJECT_DIR$/src/Outputter.ts" />
@@ -221,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/ctrnn/Neuron.ts" />
         <option value="$PROJECT_DIR$/src/signal/Receiver.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -265,6 +270,11 @@
             <path>
               <item name="that-ctrnn-library" type="b2602c69:ProjectViewProjectNode" />
               <item name="that-ctrnn-library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="that-ctrnn-library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="that-ctrnn-library" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -537,7 +547,7 @@
       <workItem from="1523611702045" duration="1615000" />
       <workItem from="1523614148825" duration="117000" />
       <workItem from="1524526765781" duration="69000" />
-      <workItem from="1524526845466" duration="418000" />
+      <workItem from="1524526845466" duration="491000" />
     </task>
     <task id="LOCAL-00004" summary="Some of the basic pages">
       <created>1476686491572</created>
@@ -886,7 +896,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362708000" />
+    <option name="totallyTimeSpent" value="362781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -905,10 +915,10 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.49330515" side_tool="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50599015" visible="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.48978153" side_tool="true" weight="0.34666666" />
-      <window_info id="npm" order="4" sideWeight="0.20222634" visible="true" weight="0.27272728" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49400985" side_tool="true" visible="true" weight="0.34545454" />
+      <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49400985" side_tool="true" visible="true" weight="0.34545454" />
       <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.48696265" weight="0.32848486" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79777366" weight="0.27272728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46863988" weight="0.44" />
       <window_info id="Structure" order="3" show_stripe_button="false" side_tool="true" weight="0.24929178" />
@@ -1060,8 +1070,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/client/images/sprite_clients.css" />
-    <entry file="file://$PROJECT_DIR$/src/client/index.html" />
     <entry file="file://$PROJECT_DIR$/src/client/css/tdc-basic.css" />
     <entry file="file://$PROJECT_DIR$/src/common/angular/components/dial/dial.component.html" />
     <entry file="file://$PROJECT_DIR$/src/common/angular/components/dial/dial.component.js" />
@@ -1096,13 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1277,6 +1278,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
