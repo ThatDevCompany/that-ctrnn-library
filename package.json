@@ -1,7 +1,7 @@
 {
     "name": "that-ctrnn-library",
     "description": "A Continuous Timescale Recurrent Neural Network",
-    "version": "0.0.1",
+    "version": "0.0.11",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -12,19 +12,27 @@
     ],
     "main": "src/index.js",
     "scripts": {
-        "cover": "istanbul cover --config .istanbul.yml --include-all-sources ./node_modules/jasmine/bin/jasmine.js src/*[sS]pec.js src/**/*[sS]pec.js",
-        "test": "jasmine src/*[sS]pec.js src/**/*[sS]pec.js",
-        "lint": "tslint --config config/tslint.json -p src/**.ts"
+        "lint": "node scripts/lint.js",
+        "build": "node scripts/build.js",
+        "test": "npm run build && node scripts/test.js",
+        "publish": "node scripts/publish.js"
     },
-    "dependencies": {},
+    "dependencies": {
+        "lodash": "^4.17.5",
+        "rxjs": "^5.5.10"
+    },
     "devDependencies": {
-        "@types/jasmine": "^2.8.6",
-        "jasmine": "^3.1.0",
-        "jasmine-core": "^3.1.0",
-        "jasmine-spec-reporter": "^4.2.1",
+        "that-build-library": "^0.0.3",
+        "@types/jasmine": "~2.8.3",
+        "@types/jasminewd2": "~2.0.2",
+        "@types/node": "~6.0.60",
+        "del": "^3.0.0",
         "istanbul": "^0.4.5",
-        "tslint": "^5.9.1",
-        "typescript": "^2.8.1",
-        "webpack": "^4.5.0"
+        "node-sass": "^4.8.3",
+        "jasmine": "^3.1.0",
+        "jasmine-core": "~2.8.0",
+        "jasmine-spec-reporter": "~4.2.1",
+        "tslint": "~5.9.1",
+        "typescript": "~2.5.3"
     }
 }

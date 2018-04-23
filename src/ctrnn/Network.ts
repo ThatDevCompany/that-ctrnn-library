@@ -24,7 +24,7 @@ export class Network {
 		}
 		for (let i = 0; i < this.size; i++ ) {
 			for (let j = 0; j < this.size; j++ ) {
-				this.neurons[j].addOutputTo(this.neurons[i]);
+				// this.neurons[j].addOutputTo(this.neurons[i]);
 			}
 		}
 	}

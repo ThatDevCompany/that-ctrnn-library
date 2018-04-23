@@ -1,6 +1,6 @@
-import {Transmitter} from './Transmitter';
-import {Receiver} from './Receiver';
-import {Transmission} from './Transmission';
+import {Transmitter} from '../signal/Transmitter';
+import {Receiver} from '../signal/Receiver';
+import {Signal} from '../signal/Signal';
 
 /**
  * A Neuron receives any number of transmissions
@@ -43,18 +43,18 @@ export class Neuron implements Transmitter, Receiver {
 	}
 
 	/**
-	 * The transmissions being listened to
-	 * @type {Transmission[]}
+	 * The signals being listened to
+	 * @type {Signal[]}
 	 * @private
 	 */
-	private _listeningTo: Array<Transmission> = [];
+	private _listeningTo: Array<Signal> = [];
 
 	/**
-	 * Listen to a transmission
-	 * @param transmission		the transmission to listen to
+	 * Listen to a signal
+	 * @param signal		the signal to listen to
 	 */
-	listenTo(transmission: Transmission) {
-		this._listeningTo.push(transmission);
+	listenTo(signal: Signal) {
+		this._listeningTo.push(signal);
 	}
 
 	/**
