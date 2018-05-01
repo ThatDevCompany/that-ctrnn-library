@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es5",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "jasmine",
+            "node"
+        ]
+    },
+    "include": [
+        "src/*.ts",
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules/*"
+    ]
+}
