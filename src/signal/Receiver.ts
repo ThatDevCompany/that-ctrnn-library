@@ -1,4 +1,4 @@
-import {Signal} from './Transmission';
+import {Signal} from '../signal/Signal';
 
 /**
  * A receiver is a node which receives a input value via a connection
