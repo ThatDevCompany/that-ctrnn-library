@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c7450a8f-170a-48fd-83e1-7dc0c4d9a0eb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/build.js" beforeDir="false" />
     </list>
     <ignored path="wwwxi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,34 +30,35 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="130">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+      <file leaf-file-name="lint.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/lint.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/LICENSE">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -215,10 +219,8 @@
         <option value="$PROJECT_DIR$/src/signal/index.ts" />
         <option value="$PROJECT_DIR$/src/ctrnn/actuator/Actuator.ts" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/index.ts" />
         <option value="$PROJECT_DIR$/src/ctrnn/sensor/index.ts" />
         <option value="$PROJECT_DIR$/scripts/build.ts" />
-        <option value="$PROJECT_DIR$/scripts/lint.ts" />
         <option value="$PROJECT_DIR$/scripts/publish.ts" />
         <option value="$PROJECT_DIR$/scripts/test.ts" />
         <option value="$PROJECT_DIR$/src/ctrnn/Network.ts" />
@@ -226,6 +228,8 @@
         <option value="$PROJECT_DIR$/src/signal/Receiver.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/scripts/lint.ts" />
+        <option value="$PROJECT_DIR$/src/index.ts" />
       </list>
     </option>
   </component>
@@ -263,7 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,12 +277,18 @@
             <path>
               <item name="that-ctrnn-library" type="b2602c69:ProjectViewProjectNode" />
               <item name="that-ctrnn-library" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="that-ctrnn-library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="that-ctrnn-library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,9 +499,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.lint" />
         <item itemvalue="npm.publish" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.lint" />
         <item itemvalue="npm.cover" />
         <item itemvalue="npm.start" />
       </list>
@@ -548,6 +557,7 @@
       <workItem from="1523614148825" duration="117000" />
       <workItem from="1524526765781" duration="69000" />
       <workItem from="1524526845466" duration="491000" />
+      <workItem from="1525388514780" duration="44000" />
     </task>
     <task id="LOCAL-00004" summary="Some of the basic pages">
       <created>1476686491572</created>
@@ -896,7 +906,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362781000" />
+    <option name="totallyTimeSpent" value="362825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -908,52 +918,52 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" order="5" sideWeight="0.49964765" weight="0.3281825" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.49330515" side_tool="true" weight="0.34545454" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50599015" visible="true" weight="0.34545454" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.48978153" side_tool="true" weight="0.34666666" />
-      <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49400985" side_tool="true" visible="true" weight="0.34545454" />
       <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.48696265" weight="0.32848486" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
+      <window_info id="TODO" order="5" sideWeight="0.49964765" weight="0.3281825" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46863988" weight="0.44" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.49330515" side_tool="true" weight="0.34545454" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50528544" visible="true" weight="0.34545454" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.48978153" side_tool="true" weight="0.34666666" />
+      <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
       <window_info id="Structure" order="3" show_stripe_button="false" side_tool="true" weight="0.24929178" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4947146" side_tool="true" visible="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39972898" />
       <window_info auto_hide="true" id="Favorites" internal_type="SLIDING" order="2" show_stripe_button="false" sideWeight="0.19911504" side_tool="true" type="SLIDING" weight="0.2967422" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Grunt " order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3306233" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46863988" weight="0.44" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48978153" side_tool="true" weight="0.34666666" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="4" sideWeight="0.20222634" weight="0.27272728" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50669485" weight="0.34571427" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79777366" visible="true" weight="0.27272728" />
       <window_info id="Structure" order="3" show_stripe_button="false" side_tool="true" weight="0.24929178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49964765" weight="0.32848486" />
       <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.48696265" weight="0.32848486" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50669485" weight="0.34571427" />
-      <window_info id="Grunt " order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46863988" weight="0.44" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39972898" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3306233" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49330515" side_tool="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.4918957" side_tool="true" weight="0.34666666" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.46863988" weight="0.44" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3306233" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.48978153" side_tool="true" weight="0.34666666" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Grunt " order="1" side_tool="true" />
       <window_info auto_hide="true" id="Favorites" internal_type="SLIDING" order="2" show_stripe_button="false" sideWeight="0.19911504" side_tool="true" type="SLIDING" weight="0.2967422" />
     </layout-to-restore>
   </component>
@@ -966,7 +976,6 @@
         <option value="$PROJECT_DIR$/src/signal/index.js" />
         <option value="$PROJECT_DIR$/src/signal/Receiver.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/example.js" />
         <option value="$PROJECT_DIR$/src/ctrnn/index.js" />
         <option value="$PROJECT_DIR$/src/ctrnn/Neuron.spec.js" />
         <option value="$PROJECT_DIR$/src/ctrnn/Network.js" />
@@ -977,6 +986,10 @@
         <option value="$PROJECT_DIR$/src/ctrnn/sensor/index.js" />
         <option value="$PROJECT_DIR$/src/ctrnn/sensor/RandomSensor.js" />
         <option value="$PROJECT_DIR$/src/ctrnn/sensor/Sensor.js" />
+        <option value="$PROJECT_DIR$/scripts/publish.js" />
+        <option value="$PROJECT_DIR$/scripts/test.js" />
+        <option value="$PROJECT_DIR$/scripts/lint.js" />
+        <option value="$PROJECT_DIR$/scripts/build.js" />
       </list>
     </option>
   </component>
@@ -1070,6 +1083,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/css/tdc-basic.css" />
     <entry file="file://$PROJECT_DIR$/src/common/angular/components/dial/dial.component.html" />
     <entry file="file://$PROJECT_DIR$/src/common/angular/components/dial/dial.component.js" />
@@ -1091,13 +1111,7 @@
     <entry file="file://$PROJECT_DIR$/src/common/box2d/Common/b2Math.ts" />
     <entry file="file://$PROJECT_DIR$/src/client/angular/tsconfig.app.json" />
     <entry file="file://$PROJECT_DIR$/src/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/config/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="89" column="15" lean-forward="true" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/tslint.json" />
     <entry file="file://$PROJECT_DIR$/src/signal/Signal.js" />
     <entry file="file://$PROJECT_DIR$/coverage/index.html" />
     <entry file="file://$PROJECT_DIR$/src/ctrnn/Neuron.spec.ts">
@@ -1164,16 +1178,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
@@ -1187,20 +1191,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsconfig.json" />
     <entry file="file://$PROJECT_DIR$/src/ctrnn/sensor/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1208,41 +1199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/lint.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/build.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/lint.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/publish.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/lint.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/build.ts" />
+    <entry file="file://$PROJECT_DIR$/scripts/publish.ts" />
+    <entry file="file://$PROJECT_DIR$/scripts/test.ts" />
     <entry file="file://$PROJECT_DIR$/src/ctrnn/Network.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -1254,9 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,30 +1231,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+          <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/lint.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>

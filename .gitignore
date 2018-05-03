@@ -1,7 +1,9 @@
+.DS_STORE
+.idea
 coverage
 dist
 node_modules
+script/*.js
+script/**/*.js
 src/*.js
 src/**/*.js
-scripts/*.js
-scripts/**/*.js
