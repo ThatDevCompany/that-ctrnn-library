@@ -5,6 +5,7 @@
 		"target": "es5",
 		"sourceMap": false,
 		"moduleResolution": "node",
+		"experimentalDecorators": true,
 		"types": [
 			"jasmine",
 			"jasminewd2",

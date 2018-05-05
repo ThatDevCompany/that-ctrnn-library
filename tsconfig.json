@@ -5,7 +5,10 @@
 		"sourceMap": false,
 		"declaration": true,
 		"moduleResolution": "node",
+		"experimentalDecorators": true,
 		"types": [
+			"jasmine",
+			"jasminewd2",
 			"node"
 		],
 		"typeRoots": [
