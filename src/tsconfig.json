@@ -1,6 +1,7 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
+		"outDir": "./",
 		"rootDir": "./",
 		"target": "es5",
 		"sourceMap": false,
