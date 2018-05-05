@@ -12,7 +12,7 @@
     ],
     "main": "src/index.js",
     "scripts": {
-        "initci": "tsc -p scripts/tsconfig.json & tsc -p src/tsconfig.json",
+        "initci": "tsc -p scripts/tsconfig.json",
         "lint": "node scripts/lint.js",
         "build": "node scripts/build.js",
         "test": "node scripts/test.js",
