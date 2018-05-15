@@ -1,18 +1,18 @@
-import {Transmitter} from '../signal/Transmitter';
-import {Receiver} from '../signal/Receiver';
+import {ITransmitter} from '../signal/ITransmitter';
+import {IReceiver} from '../signal/IReceiver';
 import {Signal} from '../signal/Signal';
 
 /**
  * A Neuron receives any number of transmissions
  * and a transmits its output accordingly
  */
-export class Neuron implements Transmitter, Receiver {
+export class Neuron implements ITransmitter, IReceiver {
 
 	/**
 	 * The current value being transmitted by the neuron
 	 */
 	get output() {
-		return this.activationFunction( this._value + this._bias );
+		return this.activationFunction(this._value + this._bias);
 	}
 
 	/**
@@ -51,7 +51,7 @@ export class Neuron implements Transmitter, Receiver {
 
 	/**
 	 * Listen to a signal
-	 * @param signal		the signal to listen to
+	 * @param signal        the signal to listen to
 	 */
 	listenTo(signal: Signal) {
 		this._listeningTo.push(signal);
@@ -77,7 +77,7 @@ export class Neuron implements Transmitter, Receiver {
 			inputSignal += t.value;
 		});
 
-		let changeInValue = ( inputSignal - this._value ) / this._tao;
+		let changeInValue = (inputSignal - this._value) / this._tao;
 
 		this._next = this._value + (timestep * changeInValue);
 	}

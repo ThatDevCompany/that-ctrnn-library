@@ -1,7 +1,7 @@
 {
     "name": "that-ctrnn-library",
     "description": "A Continuous Timescale Recurrent Neural Network",
-    "version": "0.0.13",
+    "version": "0.0.15",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -17,23 +17,18 @@
         "build:tests": "tsc -p src/tsconfig.json",
         "build": "node scripts/build.js",
         "test": "npm run build:tests && node scripts/test.js",
+        "cover": "node scripts/cover.js",
         "publish": "node scripts/publish.js"
     },
-    "dependencies": {
-        "lodash": "^4.17.5",
-        "rxjs": "^5.5.10"
-    },
+    "dependencies": {},
     "devDependencies": {
-        "that-build-library": "^0.0.4",
-        "@types/jasmine": "~2.8.3",
-        "@types/jasminewd2": "~2.0.2",
-        "@types/node": "~6.0.60",
-        "istanbul": "^0.4.5",
-        "node-sass": "^4.8.3",
+        "@types/jasmine": "^2.8.7",
+        "@types/node": "^10.0.9",
+        "nyc": "^11.7.3",
+        "codecov": "^3.0.2",
         "jasmine": "^3.1.0",
-        "jasmine-core": "~2.8.0",
-        "jasmine-spec-reporter": "~4.2.1",
-        "tslint": "~5.9.1",
-        "typescript": "~2.5.3"
+        "that-dev-library": "^0.1.6",
+        "tslint": "^5.10.0",
+        "typescript": "^2.8.3"
     }
 }

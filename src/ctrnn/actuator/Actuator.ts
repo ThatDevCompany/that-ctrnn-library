@@ -1,10 +1,10 @@
-import {Receiver, Signal} from '../../signal';
+import {IReceiver, Signal} from '../../signal';
 
 /**
  * An actuator is a leaf-node receiver. It receives an input
  * and actually effects some device with it (e.g. turns a wheel)
  */
-export abstract class Actuator implements Receiver {
+export abstract class Actuator implements IReceiver {
 
 	/**
 	 * The current state / value of the actuator
@@ -23,7 +23,7 @@ export abstract class Actuator implements Receiver {
 
 	/**
 	 * Attach the actuator to a transmission
-	 * @param signal	the transmission the Actuator should listen to
+	 * @param signal    the transmission the Actuator should listen to
 	 */
 	listenTo(signal: Signal) {
 		this._listeningTo = signal;

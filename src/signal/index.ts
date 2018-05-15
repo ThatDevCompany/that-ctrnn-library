@@ -1,3 +1,3 @@
-export * from './Receiver';
-export * from './Transmitter';
+export * from './IReceiver';
+export * from './ITransmitter';
 export * from './Signal';

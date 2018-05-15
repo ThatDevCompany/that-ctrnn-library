@@ -1,10 +1,10 @@
-import {Transmitter} from '../../signal';
+import {ITransmitter} from '../../signal';
 
 /**
  * A sensor is a type of leaf-node transmitter. In transmits an output
  * based on a real-world value (such as light or proximity)
  */
-export abstract class Sensor implements Transmitter {
+export abstract class Sensor implements ITransmitter {
 
 	/**
 	 * The current state of the sensor
@@ -33,7 +33,7 @@ export abstract class Sensor implements Transmitter {
 
 	/**
 	 * Determine the next value
-	 * @param {number} dt		the timestep
+	 * @param {number} dt        the timestep
 	 */
 	tick(dt: number) {
 		// THIS METHOD SHOULD BE OVERRIDDEN
@@ -41,7 +41,7 @@ export abstract class Sensor implements Transmitter {
 	}
 
 	/**
-	 *	Apply the next value
+	 *    Apply the next value
 	 */
 	tock() {
 		this._value = this._next;

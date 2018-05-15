@@ -1,15 +1,14 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
-		"outDir": "./",
-		"target": "es5",
+		"target": "es2015",
+		"module": "commonjs",
 		"sourceMap": false,
 		"declaration": false,
 		"moduleResolution": "node",
 		"experimentalDecorators": true,
 		"types": [
 			"jasmine",
-			"jasminewd2",
 			"node"
 		],
 		"typeRoots": [
