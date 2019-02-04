@@ -1,9 +1,7 @@
-import {Sensor} from './Sensor';
+import { Sensor } from './Sensor'
 
 describe('Sensor', () => {
-
 	it('should be a function', () => {
-		expect(typeof Sensor).toEqual('function');
+		expect(typeof Sensor).toEqual('function')
 	})
-
-});
+})

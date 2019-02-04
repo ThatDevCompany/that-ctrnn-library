@@ -1,4 +1,4 @@
-import {Actuator} from './Actuator';
+import { Actuator } from './Actuator'
 
 /**
  * The Log Actuator sends its value to the console log
@@ -9,7 +9,7 @@ export class LogActuator extends Actuator {
 	 * Apply the next value
 	 */
 	tock() {
-		super.tock();
-		console.log('Value:', this._value);
+		super.tock()
+		console.log('Value:', this._value)
 	}
 }

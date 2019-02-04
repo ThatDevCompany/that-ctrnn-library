@@ -1,9 +1,7 @@
-import {Actuator} from './Actuator';
+import { Actuator } from './Actuator'
 
 describe('Actuator', () => {
-
 	it('should be a function', () => {
-		expect(typeof Actuator).toEqual('function');
+		expect(typeof Actuator).toEqual('function')
 	})
-
-});
+})

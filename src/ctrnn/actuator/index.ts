@@ -1,2 +1,2 @@
-export * from './Actuator';
-export * from './LogActuator';
+export * from './Actuator'
+export * from './LogActuator'

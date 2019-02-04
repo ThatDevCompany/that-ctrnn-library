@@ -1,2 +1,2 @@
-export * from './Sensor';
-export * from './RandomSensor';
+export * from './Sensor'
+export * from './RandomSensor'

@@ -1,34 +1,33 @@
-import {ITransmitter} from '../../signal';
+import { ITransmitter } from '../../signal'
 
 /**
  * A sensor is a type of leaf-node transmitter. In transmits an output
  * based on a real-world value (such as light or proximity)
  */
 export abstract class Sensor implements ITransmitter {
-
 	/**
 	 * The current state of the sensor
 	 */
-	protected _value: number;
+	protected _value: number
 
 	/**
 	 * The next state of the sensor
 	 */
-	protected _next: number;
+	protected _next: number
 
 	/**
 	 * The output value of the sensor
 	 * @returns {number}
 	 */
 	get output() {
-		return this._value;
+		return this._value
 	}
 
 	/**
 	 * Randomise the sensor value
 	 */
 	randomise() {
-		this._value = Math.random();
+		this._value = Math.random()
 	}
 
 	/**
@@ -37,13 +36,13 @@ export abstract class Sensor implements ITransmitter {
 	 */
 	tick(dt: number) {
 		// THIS METHOD SHOULD BE OVERRIDDEN
-		this._next = this._value;
+		this._next = this._value
 	}
 
 	/**
 	 *    Apply the next value
 	 */
 	tock() {
-		this._value = this._next;
+		this._value = this._next
 	}
 }
